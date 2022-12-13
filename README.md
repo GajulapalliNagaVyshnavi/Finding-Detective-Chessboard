@@ -71,7 +71,7 @@ placed with L shape tiles.
 
 #CODE 
 
-[17:38, 13/12/2022] Sowmya: #include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std; int
 size_of_grid, b, a, cnt = 0; int
 arr[128][128];
@@ -90,7 +90,7 @@ y)
  cnt++;
  for (int i = 0; i < n; i++) {
 for (int j = 0; j < n; j++) {
-[17:38, 13/12/2022] Sowmya: if (arr[x + i][y + j] == 0) {
+if (arr[x + i][y + j] == 0) {
 arr[x + i][y + j] = cnt;
  }
  }
